@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Welcome to Flask App for K8S Integration"
+    return "Welcome to back to Flask App"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5001, debug=True)
